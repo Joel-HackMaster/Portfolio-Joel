@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+DK+Loopet:wght@100..400&display=swap');
+
+@keyframes neon-lights {
+  0% {
+    background-position: 0 0;
+    box-shadow: 0 0 10px #3498DB, 0 0 20px #3498DB, 0 0 30px #3498DB, 0 0 40px #3498DB;
+  }
+  50% {
+    background-position: 200% 200%;
+    box-shadow: 0 0 20px #1ABC9C, 0 0 40px #1ABC9C, 0 0 60px #1ABC9C, 0 0 80px #1ABC9C;
+  }
+  100% {
+    background-position: 400% 400%;
+    box-shadow: 0 0 10px #3498DB, 0 0 20px #3498DB, 0 0 30px #3498DB, 0 0 40px #3498DB;
+  }
+}
+
+.neon-lights-border {
+  position: relative;
+  border-radius: 50px;
+  padding: 2px;
+}
+
+.neon-lights-border::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: inherit;
+  padding: 1px; /* Ajusta el padding según lo necesites */
+  background: linear-gradient(90deg, #3498DB, #1ABC9C, #3498DB, #1ABC9C);
+  background-size: 400% 400%;
+  animation: neon-lights 10s linear infinite;
+  border: 2px solid transparent; /* Ajusta el grosor del borde */
+  z-index: -1;
+}
+
+.neon-lights-content {
+  border-radius: 48px;
+  padding: 0.5rem;
+  position: relative;
+  z-index: 1; /* Asegura que el contenido esté por encima del pseudo-elemento */
+}
+
+
+#fuente {
+  font-family: "Playwrite DK Loopet", cursive;
+  color: linear-gradient(90deg, #3498DB, #1ABC9C, #3498DB, #1ABC9C);
+}
