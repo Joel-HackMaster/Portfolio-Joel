@@ -101,7 +101,7 @@ export default function SkillsComponents() {
           <div className="grid grid-cols-2 xl:flex 2xl:flex-row">
             <div className="flex flex-col items-center mt-4 mx-4 xl:flex xl:flex-col xl:justify-center">
               <MicrosoftAzure />
-              <span className="text-center fontName">SQL server</span>
+              <span className="text-center fontName">Azure</span>
             </div>
             <div className="flex flex-col items-center mt-4 mx-4 xl:flex xl:flex-col xl:justify-center">
               <GoogleCloud />
