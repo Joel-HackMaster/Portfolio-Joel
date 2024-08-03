@@ -15,8 +15,7 @@ export default withMT({
         'custom-gray-light': '#d3dce6',
         'custom-gray-person': '#2C3E50',
       },
-      fontFamily: {
-        sans: ['Roboto', 'sans-serif'], // Fuente personalizada
+      fontFamily: { // Fuente personalizada
         playwrite: ['Playwrite DK Loopet', 'cursive'], // Otra fuente personalizada (opcional)
         exo : ['Exo 2', 'sans-serif'],
       },

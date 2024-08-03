@@ -30,25 +30,24 @@ import "../../js/icons.js";
 
 export default function SkillsComponents() {
   return (
-    <>
-      <div
-        className="fondo_2 w-full 
-            h-auto flex flex-col items-center justify-center 
-            rounded-e-lg bg-white fluorescent-border"
-      >
-        <div className="fondo-gradiente mt-8 w-full h-16 flex justify-center items-center">
-          <span className="fontName uppercase text-white font-black text-4xl">
-            SKILLS
-          </span>
-        </div>
+    <div
+      className="bg-custom-gray-person bg-opacity-70 h-auto flex flex-col items-center justify-center 
+            rounded-e-lg"
+    >
+      <div className="fondo-gradiente mt-8 w-full h-16 flex justify-center items-center lg:">
+        <span className="fontName uppercase text-white font-black text-4xl">
+          SKILLS
+        </span>
+      </div>
+      <div className="w-full px-8">
         <div
-          className="flex items-center flex-col w-auto h-auto py-10 px-2 rounded-xl
+          className="flex items-center flex-col w-full h-auto py-10 rounded-xl
                 bg-white bg-opacity-70 text-custom-gray-person my-8"
         >
           <span color="white" className="fontName font-semibold text-4xl">
             ANALISIS DE DATOS
           </span>
-          <div className="grid grid-cols-2 xl:flex xl:flex-row">
+          <div className="grid grid-cols-2 xl:flex 2xl:flex-row">
             <div className="flex flex-col items-center mt-4 mx-4 xl:flex xl:flex-col xl:justify-center">
               <Excel />
               <span className="text-center fontName">Excel</span>
@@ -59,7 +58,7 @@ export default function SkillsComponents() {
             </div>
             <div className="flex flex-col items-center mt-4 mx-4 xl:flex xl:flex-col xl:justify-center">
               <PowerBi />
-              <span className="text-center fontName">PowerBi</span>
+              <span className="text-center fontName">Power Bi</span>
             </div>
             <div className="flex flex-col items-center mt-4 mx-4 xl:flex xl:flex-col xl:justify-center">
               <Firebase />
@@ -69,7 +68,7 @@ export default function SkillsComponents() {
           <span color="white" className="fontName font-semibold text-4xl mt-8">
             BACKEND
           </span>
-          <div className="grid grid-cols-2 xl:flex xl:flex-row">
+          <div className="grid grid-cols-2 xl:flex 2xl:flex-row">
             <div className="flex flex-col items-center mt-4 mx-4 xl:flex xl:flex-col xl:justify-center">
               <Python />
               <span className="text-center fontName">Python</span>
@@ -86,12 +85,12 @@ export default function SkillsComponents() {
           <span color="white" className="fontName font-semibold text-4xl mt-8">
             BASES DE DATOS
           </span>
-          <div className="mt-8 flex flex-row">
-            <div className="flex flex-col justify-center">
+          <div className="grid grid-cols-2 xl:flex 2xl:flex-row">
+            <div className="flex flex-col items-center mt-4 mx-4 xl:flex xl:flex-col xl:justify-center">
               <MySQL />
               <span className="text-center fontName">MySQL</span>
             </div>
-            <div className="flex flex-col justify-center ml-8">
+            <div className="flex flex-col items-center mt-4 mx-4 xl:flex xl:flex-col xl:justify-center">
               <MicrosoftSQLServer />
               <span className="text-center fontName">SQL server</span>
             </div>
@@ -99,12 +98,12 @@ export default function SkillsComponents() {
           <span color="white" className="fontName font-semibold text-4xl mt-8">
             CLOUD
           </span>
-          <div className="mt-8 flex flex-row">
-            <div className="flex flex-col justify-center">
+          <div className="grid grid-cols-2 xl:flex 2xl:flex-row">
+            <div className="flex flex-col items-center mt-4 mx-4 xl:flex xl:flex-col xl:justify-center">
               <MicrosoftAzure />
               <span className="text-center fontName">SQL server</span>
             </div>
-            <div className="flex flex-col justify-center ml-8">
+            <div className="flex flex-col items-center mt-4 mx-4 xl:flex xl:flex-col xl:justify-center">
               <GoogleCloud />
               <span className="text-center fontName">Google Cloud</span>
             </div>
@@ -112,12 +111,12 @@ export default function SkillsComponents() {
           <span color="white" className="fontName font-semibold text-4xl mt-8">
             FRAMEWORKS
           </span>
-          <div className="mt-8 flex flex-row">
-            <div className="flex flex-col justify-center">
+          <div className="grid grid-cols-2 xl:flex 2xl:flex-row">
+            <div className="flex flex-col items-center mt-4 mx-4 xl:flex xl:flex-col xl:justify-center">
               <IconReact />
               <span className="text-center fontName">React JS</span>
             </div>
-            <div className="flex flex-col justify-center ml-8">
+            <div className="flex flex-col items-center mt-4 mx-4 xl:flex xl:flex-col xl:justify-center">
               <DjangoIcon />
               <span className="text-center fontName">Django</span>
             </div>
@@ -125,7 +124,7 @@ export default function SkillsComponents() {
           <span color="white" className="fontName font-semibold text-4xl mt-8">
             FRONTEND
           </span>
-          <div className="grid grid-cols-2 xl:flex xl:flex-row">
+          <div className="grid grid-cols-2 xl:flex 2xl:flex-row">
             <div className="flex flex-col items-center mt-4 mx-4 xl:flex xl:flex-col xl:justify-center">
               <JavaScript />
               <span className="text-center fontName">JavaScript</span>
@@ -145,6 +144,6 @@ export default function SkillsComponents() {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 }

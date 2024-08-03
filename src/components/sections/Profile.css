@@ -14,6 +14,13 @@
     background-image: url('../../assets/fondo/fondo2.jpg');
 }
 
+.fondo_3{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url('../../assets/fondo/fondo3.jpg');
+}
+
 
 .fontName{
     font-family: "Exo 2", sans-serif;
@@ -38,34 +45,36 @@
     animation: glow 1.5s infinite alternate;
 }
 
-.fluorescent-border {
+.borde_personal {
+    border-top: 6px double red;
+    border-right: 6px double red;
+    border-bottom: 6px double red;
     position: relative;
     padding: 20px;
-    background: #000;
   }
   
-  .fluorescent-border::before,
-  .fluorescent-border::after {
+  .borde_personal::before,
+  .borde_personal::after {
     content: "";
     position: absolute;
-    top: -5px;
-    left: -5px;
-    width: calc(100% + 10px);
-    height: calc(100% + 10px);
+    top: -8px;
+    left: -8px;
+    width: calc(100% + 16px);
+    height: calc(100% + 16px);
     border: 2px solid transparent;
     border-radius: 5px;
     z-index: -1;
   }
   
-  .fluorescent-border::before {
-    border-color: #0f0;
+  .borde_personal::before {
+    border-color: #0f0; /* Verde fluorescente */
     filter: blur(4px);
     opacity: 0.8;
     animation: neon1 2s infinite alternate;
   }
   
-  .fluorescent-border::after {
-    border-color: #00f;
+  .borde_personal::after {
+    border-color: #00f; /* Azul fluorescente */
     filter: blur(4px);
     opacity: 0.8;
     animation: neon2 2s infinite alternate;

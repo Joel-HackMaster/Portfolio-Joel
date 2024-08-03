@@ -15,8 +15,8 @@ export default function ProfileComponent() {
   return (
     <>
       <div
-        className="fondo w-full h-auto 
-                        flex flex-col justify-center rounded-s-lg"
+        className="w-full h-auto bg-custom-gray-person bg-opacity-70
+                  flex flex-col justify-center rounded-s-lg"
       >
         <div className="fondo-gradiente mt-8 w-full h-16 flex justify-center items-center">
             <span className="fontName text-white font-black text-4xl">
@@ -79,17 +79,17 @@ export default function ProfileComponent() {
                 PROYECTOS
             </span>
         </div>
-        <div className="w-full px-12">
+        <section id="1" className="w-full px-12">
           <Proyectos/>
-        </div>
+        </section>
         <div className="fondo-gradiente w-full h-16 flex justify-center items-center">
             <span className="fontName text-white font-black text-4xl">
                 BLOGS
             </span>
         </div>
-        <div className="w-full px-12">
+        <section id="2" className="w-full px-12">
           <Blogs/>
-        </div>
+        </section>
       </div>
     </>
   );
