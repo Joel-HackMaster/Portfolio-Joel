@@ -15,6 +15,7 @@ import {
   LifebuoyIcon,
   PowerIcon,
   ChevronDownIcon,
+  EyeIcon
 } from "@heroicons/react/24/solid";
 
 const profileMenuItems = [
@@ -72,16 +73,17 @@ export default function NavProfile() {
           onClick={closeMenu}
           className="flex justify-center items-center gap-2 rounded-lg"
         >
-          {React.createElement(InboxArrowDownIcon, {
+          {React.createElement(EyeIcon, {
             className: `h-4 w-4 text-blue-gray-900`,
             strokeWidth: 2,
           })}
           <Typography
-            as="span"
+            as="a"
+            href="https://www.canva.com/design/DAGD0m0bHVI/nyTPo4OijqjdGrzmIFehfA/view?utm_content=DAGD0m0bHVI&utm_campaign=designshare&utm_medium=link&utm_source=editor"
             variant="small"
             className="font-normal text-blue-gray-900"
           >
-            Descargar CV
+            Ver Curriculum
           </Typography>
         </MenuItem>
       </MenuList>
