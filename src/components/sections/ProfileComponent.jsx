@@ -13,9 +13,8 @@ import Blogs from "../Content/Blogs.jsx";
 
 export default function ProfileComponent() {
   return (
-    <>
       <div
-        className="w-full h-auto bg-custom-gray-person bg-opacity-70
+        className="max-w-full  h-auto bg-custom-gray-person bg-opacity-70
                   flex flex-col justify-center rounded-s-lg"
       >
         <div className="fondo-gradiente mt-8 w-full h-16 flex justify-center items-center">
@@ -23,7 +22,7 @@ export default function ProfileComponent() {
                 PERFIL
             </span>
         </div>
-        <div className="grid grid-cols-2 pt-16 pb-8 gap-4">
+        <div className="grid grid-cols-2 pt-16 pb-8">
           <div
             className="w-full flex justify-end pr-12"
           >
@@ -91,6 +90,5 @@ export default function ProfileComponent() {
           <Blogs/>
         </section>
       </div>
-    </>
   );
 }

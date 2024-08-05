@@ -8,7 +8,7 @@ import NavComponent from './components/nav/NavComponent'
 
 function App() {
   return (
-    <div className='h-full w-full flex justify-center'>
+    <div className='h-full w-full'>
       <BrowserRouter>
       <NavComponent/>
       <Routes>

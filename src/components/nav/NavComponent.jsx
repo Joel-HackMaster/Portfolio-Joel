@@ -25,10 +25,8 @@ export default function NavComponent() {
         );
     }, []);
   return (
-    <Navbar className='max-w-screen-xl 
-                    p-2 rounded-xl my-4 
-                    fixed z-50'>
-        <div className='relative flex items-center justify-between text-blue-gray-900'>
+    <Navbar className="rounded-none z-50 right-0 top-0 max-w-full mb-4 fixed gap-2 lg:top-0 lg:right-0 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-6 lg:z-50">
+        <div className='flex items-center justify-between text-blue-gray-900'>
             <div className='w-56'>
                 <Typography
                     as='a'
