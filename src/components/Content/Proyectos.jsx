@@ -44,7 +44,7 @@ export default function Proyectos() {
               {name}
             </Typography>
           <CardHeader floated={false} className="h-80 flex justify-center items-center bg-custom-gray-person cursor-pointer">
-            <a href={url}>
+            <a href={url} target="_blank" rel="no ref">
                 <img src={image} className="object-cover" alt="profile-picture" />
             </a>
           </CardHeader>

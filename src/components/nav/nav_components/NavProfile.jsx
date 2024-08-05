@@ -79,6 +79,8 @@ export default function NavProfile() {
           })}
           <Typography
             as="a"
+            target="_blank" 
+            rel="no ref"
             href="https://www.canva.com/design/DAGD0m0bHVI/nyTPo4OijqjdGrzmIFehfA/view?utm_content=DAGD0m0bHVI&utm_campaign=designshare&utm_medium=link&utm_source=editor"
             variant="small"
             className="font-normal text-blue-gray-900"
