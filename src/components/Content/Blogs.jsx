@@ -18,7 +18,7 @@ const projects_info = [
     image: "https://firebasestorage.googleapis.com/v0/b/portfolio-f94b0.appspot.com/o/PORTFOLIO%2FBlogs%2FCertificado_1.png?alt=media&token=c2cc60ee-11f1-452c-a618-e2f5299073a2",
     info: "Certificado IT CENTER LEARN  AZURE AZ-900",
     date: "02/08/2024",
-    url: "https://www.canva.com/design/DAGMwx_84FU/hg8aqVppTIpJOUKO_0v-HQ/view?utm_content=DAGMwx_84FU&utm_campaign=designshare&utm_medium=link&utm_source=editor",
+    url: "https://www.canva.com/design/DAGMxBba0Rg/2ToBuDU6DxkliA0yrHuLOQ/view?utm_content=DAGMxBba0Rg&utm_campaign=designshare&utm_medium=link&utm_source=editor",
     tech: [
         ["Azure","fa-brands fa-microsoft", "cyan"], 
     ],
