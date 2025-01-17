@@ -1,7 +1,9 @@
 import React from "react";
 import {
     ReactSticker,
-    Django
+    Django,
+    JavaIcon,
+    SpringBootIcon
 } from '../Resources/Logos'
 
 export default function AboutMe() {
@@ -17,10 +19,17 @@ export default function AboutMe() {
       </div>
       <div className="w-full flex px-8 py-8 justify-center">
         <span className="text-white fontName inline">
-            Soy Ingeniero de Software 🧑‍💻 y actualmente desarrollo aplicaciones web utilizando React 
-            <span className="inline-block px-1"><ReactSticker /></span>
-            y Django <span className='inline-block px-1-'><Django /></span>, estoy en búsqueda de practicas para reforzar mis 
-            habilidades, soy entusiasta, innovador y resolutivo.
+    
+
+            Hola me llamo Joel, soy estudiante de ultimo año de Ingenieria de Software 🧑‍💻, 
+            actualmente desarrollo aplicaciones web cuento con 2 años de experiencia, 
+            lenguajes como Python (Django) <span className='inline-block px-1-'><Django /></span> 
+            y Java (SpringBoot) <span className='inline-block px-1-'><SpringBootIcon /></span> en Backend y en 
+            Frontend React JS (<span className="inline-block px-1"><ReactSticker /></span>), 
+            absolviendo mis dudas leyendo documentación y utilizando IA,  
+            Soy un entusiasta y apasionado por la tecnología y la innovación, 
+            especialmente en el ámbito Backend y el DevOps, 
+            busco oportunidades para contribuir en las empresas.
         </span>
       </div>
     </div>

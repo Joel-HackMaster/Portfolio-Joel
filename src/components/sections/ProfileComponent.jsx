@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faGithub,
   faLinkedinIn,
-  faXTwitter,
+  faInstagram,
 } from "@fortawesome/free-brands-svg-icons";
 import "../../js/icons.js";
 import Proyectos from "../Content/Proyectos.jsx";
@@ -61,14 +61,16 @@ export default function ProfileComponent() {
               <a
                 color="white"
                 className="mx-2 p-1 rounded-lg bg-custom-gray-person"
+                href="www.linkedin.com/in/joel-wilton-sánchez-bravo-426538210"
               >
                 <FontAwesomeIcon color="white" icon={faLinkedinIn} />
               </a>
               <a
                 color="white"
                 className="mx-2 p-1 rounded-lg bg-custom-gray-person"
+                href="https://www.instagram.com/wsanchez.1502/"
               >
-                <FontAwesomeIcon color="white" icon={faXTwitter} />
+                <FontAwesomeIcon color="white" icon={faInstagram} />
               </a>
             </div>
           </div>

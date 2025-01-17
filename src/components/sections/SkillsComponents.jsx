@@ -8,6 +8,9 @@ import {
   faXTwitter,
 } from "@fortawesome/free-brands-svg-icons";
 import {
+  PSQL,
+  SpringBoot,
+  Java,
   DjangoIcon,
   Python,
   C,
@@ -82,6 +85,10 @@ export default function SkillsComponents() {
               <Postman />
               <span className="text-center fontName">Postman</span>
             </div>
+            <div className="flex flex-col items-center mt-4 mx-4 min-w-[5rem]">
+              <Java />
+              <span className="text-center fontName">Java</span>
+            </div>
           </div>
           <span color="white" className="fontName font-semibold text-center text-4xl mt-8">
             BASES DE DATOS
@@ -94,6 +101,10 @@ export default function SkillsComponents() {
             <div className="flex flex-col items-center mt-4 mx-4 min-w-[5rem]">
               <MicrosoftSQLServer />
               <span className="text-center fontName">SQL server</span>
+            </div>
+            <div className="flex flex-col items-center mt-4 mx-4 min-w-[5rem]">
+              <PSQL />
+              <span className="text-center fontName">Postgres SQL</span>
             </div>
           </div>
           <span color="white" className="fontName font-semibold text-4xl mt-8">
@@ -120,6 +131,10 @@ export default function SkillsComponents() {
             <div className="flex flex-col items-center mt-4 mx-4 min-w-[5rem]">
               <DjangoIcon />
               <span className="text-center fontName">Django</span>
+            </div>
+            <div className="flex flex-col items-center mt-4 mx-4 min-w-[5rem]">
+              <SpringBoot />
+              <span className="text-center fontName">SpringBoot</span>
             </div>
           </div>
           <span color="white" className="fontName font-semibold text-4xl mt-8">
